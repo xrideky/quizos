@@ -1,0 +1,16 @@
+{
+    "level1": [
+        {
+            "problem": "HTML",
+            "solution": "HyperText Markup Language"
+        },
+        {
+            "problem": "CSS",
+            "solution": "Cascading Style Sheets"
+        },
+        {
+            "problem": "JS",
+            "solution": "JavaScript"
+        }
+    ]
+}
