@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/xrideky/quizos.git/static/css/main.858d0522.css",
+    "main.js": "/xrideky/quizos.git/static/js/main.76d4d3c5.js",
+    "static/media/wallpaperos.jpg": "/xrideky/quizos.git/static/media/wallpaperos.8c5de3aecfdc3e155944.jpg",
+    "index.html": "/xrideky/quizos.git/index.html",
+    "main.858d0522.css.map": "/xrideky/quizos.git/static/css/main.858d0522.css.map",
+    "main.76d4d3c5.js.map": "/xrideky/quizos.git/static/js/main.76d4d3c5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.858d0522.css",
+    "static/js/main.76d4d3c5.js"
+  ]
+}
