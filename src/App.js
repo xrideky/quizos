@@ -1,14 +1,29 @@
 import EasyDifficulty from "./components/EasyDifficulty"
 import HardDifficulty from "./components/HardDifficulty"
+import EasyLevels from "./easyLevels.json"
+import Description from "./components/Description"
 
 const App = () => {
+  const easyLevels = [...EasyLevels.Levels]
+  shuffleArray(easyLevels)
+  console.log(easyLevels)
   return (
     <div className='content'>
       <h1>WEBTECH 1 - QUIZ</h1>
-      <EasyDifficulty />
+      <Description />
+      <EasyDifficulty easyLevels={easyLevels}/>
       <HardDifficulty />
     </div>
   )
+}
+
+const shuffleArray = (array) => {
+  for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      const temp = array[i];
+      array[i] = array[j];
+      array[j] = temp;
+  }
 }
 
 export default App

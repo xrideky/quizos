@@ -1,0 +1,23 @@
+.description-game {
+    display: block;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px auto;
+    width: 30%;
+    font-size: 1.2rem;
+}
+
+.description-game span {
+    color: #6a1bd2;
+}
+
+@media (max-width: 700px) {
+    .description-game {
+        display: block;
+        flex-direction: row;
+        justify-content: center;
+        margin: 10px auto;
+        width: 80%;
+        font-size: 1.2rem;
+    }
+}

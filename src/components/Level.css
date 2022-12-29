@@ -1,0 +1,30 @@
+.box {
+    z-index: 10;
+}
+
+.level-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+img {
+    margin-top: 100px;
+    width: 100px;
+    height: 100px;
+    z-index: 50;
+}
+
+.answer-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    border: 4px dashed #6a1bd2;
+    padding: 50px 50px;
+    margin: 30px 30px;
+    background-color: rgb(214, 214, 214);
+}

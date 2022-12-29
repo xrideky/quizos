@@ -1,6 +1,6 @@
-[
-    {
-        "level1": [
+{
+    "Levels":[{
+        "level": [
             {
                 "id": 1,
                 "problem": "https://cdn.worldvectorlogo.com/logos/html-1.svg",
@@ -19,7 +19,7 @@
         ]
     },
     {
-        "level2": [
+        "level": [
             {
                 "id": 1,
                 "problem": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
@@ -38,7 +38,7 @@
         ]
     },
     {
-        "level3": [
+        "level": [
             {
                 "id": 1,
                 "problem": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png",
@@ -57,7 +57,7 @@
         ]
     },
     {
-        "level4": [
+        "level": [
             {
                 "id": 1,
                 "problem": "https://design.firefox.com/product-identity/firefox/firefox/firefox-logo.png",
@@ -76,7 +76,7 @@
         ]
     },
     {
-        "level5": [
+        "level": [
             {
                 "id": 1,
                 "problem": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Windows_logo_-_2012.png",
@@ -93,5 +93,5 @@
                 "solution": "MacOS"
             }
         ]
-    }
-]
+    }]
+}
