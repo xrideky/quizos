@@ -1,6 +1,5 @@
 import './EasyDifficulty.css'
 import { useState } from 'react'
-import _ from 'lodash'
 import Level from './Level'
 
 const EasyDifficulty = (easyLevels) => {
@@ -16,7 +15,7 @@ const EasyDifficulty = (easyLevels) => {
     }
 
     const nextLevel = () => {
-        if (level == 4) {
+        if (level === 4) {
             console.log("KONEC")
             const btn = document.getElementById("nextLevelBtn");
             btn.style.display = "none";
@@ -54,14 +53,16 @@ const EasyDifficulty = (easyLevels) => {
         */
         <div>
             <button onClick={easyHandler}>{show === true ? 'Ukončiť' : 'Ľahká obtiažnosť'}</button>
-                {show && <div className='easy-div'>
-                    <Level levelProblems={levelProblems} levelSolutions={levelSolutions} />
-                    <button onClick={nextLevel} id="nextLevelBtn">Ďalší level</button>
-                    {modalShow && <div className='end-div'>
-                        <h3>KONIEC HRY</h3>
-                    </div>
-                    }
-                </div>}
+            {show && <div className='easy-div'>
+                <Level levelProblems={levelProblems} levelSolutions={levelSolutions} />
+                <div className='next-level'>
+                    <button onClick={nextLevel} id="nextLevelBtn" >Ďalší level</button>
+                </div>
+                {modalShow && <div className='end-div'>
+                    <h3>KONIEC HRY</h3>
+                </div>
+                }
+            </div>}
         </div>
     )
 }

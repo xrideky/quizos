@@ -1,16 +1,99 @@
 {
-    "level1": [
+    "Levels": [
         {
-            "problem": "HTML",
-            "solution": "HyperText Markup Language"
+            "level": [
+                {
+                    "id": 1,
+                    "problem": "HTML",
+                    "solution": "HyperText Markup Language"
+                },
+                {
+                    "id": 2,
+                    "problem": "CSS",
+                    "solution": "Cascading Style Sheets"
+                },
+                {
+                    "id": 3,
+                    "problem": "JS",
+                    "solution": "JavaScript"
+                }
+            ]
         },
         {
-            "problem": "CSS",
-            "solution": "Cascading Style Sheets"
+            "level": [
+                {
+                    "id": 1,
+                    "problem": "JPEG",
+                    "solution": "Joint Photographic Experts Group"
+                },
+                {
+                    "id": 2,
+                    "problem": "PNG",
+                    "solution": "Portable Network Graphics"
+                },
+                {
+                    "id": 3,
+                    "problem": "Graphics Interchange Format",
+                    "solution": "GIF"
+                }
+            ]
         },
         {
-            "problem": "JS",
-            "solution": "JavaScript"
+            "level": [
+                {
+                    "id": 1,
+                    "problem": "JSON",
+                    "solution": "JavaScript Object Notation"
+                },
+                {
+                    "id": 2,
+                    "problem": "XML",
+                    "solution": "eXtensible Markup Language"
+                },
+                {
+                    "id": 3,
+                    "problem": "YAML",
+                    "solution": "Yet Another Markup Language"
+                }
+            ]
+        },
+        {
+            "level": [
+                {
+                    "id": 1,
+                    "problem": "<ul></ul>",
+                    "solution": "nečíslovaný zoznam"
+                },
+                {
+                    "id": 2,
+                    "problem": "<ol></ol>",
+                    "solution": "číslovaný zoznam"
+                },
+                {
+                    "id": 3,
+                    "problem": "<li></li>",
+                    "solution": "položky v zozname"
+                }
+            ]
+        },
+        {
+            "level": [
+                {
+                    "id": 1,
+                    "problem": "WWW",
+                    "solution": "World Wide Web"
+                },
+                {
+                    "id": 2,
+                    "problem": "HTTP",
+                    "solution": "Hypertext Transfer Protocol"
+                },
+                {
+                    "id": 3,
+                    "problem": "HTTPS",
+                    "solution": "Hypertext Transfer Protocol Secure"
+                }
+            ]
         }
     ]
 }

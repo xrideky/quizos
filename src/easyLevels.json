@@ -1,97 +1,99 @@
 {
-    "Levels":[{
-        "level": [
-            {
-                "id": 1,
-                "problem": "https://cdn.worldvectorlogo.com/logos/html-1.svg",
-                "solution": "HTML"
-            },
-            {
-                "id": 2,
-                "problem": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png",
-                "solution": "CSS"
-            },
-            {
-                "id": 3,
-                "problem": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
-                "solution": "JS"
-            }
-        ]
-    },
-    {
-        "level": [
-            {
-                "id": 1,
-                "problem": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
-                "solution": "REACT"
-            },
-            {
-                "id": 2,
-                "problem": "https://assets.stickpng.com/images/5847ea22cef1014c0b5e4833.png",
-                "solution": "ANGULAR"
-            },
-            {
-                "id": 3,
-                "problem": "https://assets.stickpng.com/images/58482acecef1014c0b5e4a1e.png",
-                "solution": "VUE"
-            }
-        ]
-    },
-    {
-        "level": [
-            {
-                "id": 1,
-                "problem": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png",
-                "solution": "Visual Studio Code"
-            },
-            {
-                "id": 2,
-                "problem": "https://e7.pngegg.com/pngimages/662/600/png-clipart-sublime-text-computer-icons-others-miscellaneous-angle-thumbnail.png",
-                "solution": "Sublime Text"
-            },
-            {
-                "id": 3,
-                "problem": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/PhpStorm_Icon.svg/2048px-PhpStorm_Icon.svg.png",
-                "solution": "PhpStorm"
-            }
-        ]
-    },
-    {
-        "level": [
-            {
-                "id": 1,
-                "problem": "https://design.firefox.com/product-identity/firefox/firefox/firefox-logo.png",
-                "solution": "Mozilla"
-            },
-            {
-                "id": 2,
-                "problem": "https://upload.wikimedia.org/wikipedia/commons/8/87/Google_Chrome_icon_%282011%29.png",
-                "solution": "Chrome"
-            },
-            {
-                "id": 3,
-                "problem": "https://assets.stickpng.com/images/58481821cef1014c0b5e499f.png",
-                "solution": "Opera"
-            }
-        ]
-    },
-    {
-        "level": [
-            {
-                "id": 1,
-                "problem": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Windows_logo_-_2012.png",
-                "solution": "Windows"
-            },
-            {
-                "id": 2,
-                "problem": "https://assets.stickpng.com/images/58480e82cef1014c0b5e4927.png",
-                "solution": "Linux"
-            },
-            {
-                "id": 3,
-                "problem": "https://cdn-icons-png.flaticon.com/512/2/2235.png",
-                "solution": "MacOS"
-            }
-        ]
-    }]
+    "Levels": [
+        {
+            "level": [
+                {
+                    "id": 1,
+                    "problem": "https://cdn.worldvectorlogo.com/logos/html-1.svg",
+                    "solution": "HTML"
+                },
+                {
+                    "id": 2,
+                    "problem": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png",
+                    "solution": "CSS"
+                },
+                {
+                    "id": 3,
+                    "problem": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+                    "solution": "JS"
+                }
+            ]
+        },
+        {
+            "level": [
+                {
+                    "id": 1,
+                    "problem": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
+                    "solution": "REACT"
+                },
+                {
+                    "id": 2,
+                    "problem": "https://assets.stickpng.com/images/5847ea22cef1014c0b5e4833.png",
+                    "solution": "ANGULAR"
+                },
+                {
+                    "id": 3,
+                    "problem": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Vue.png",
+                    "solution": "VUE"
+                }
+            ]
+        },
+        {
+            "level": [
+                {
+                    "id": 1,
+                    "problem": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png",
+                    "solution": "VS Code"
+                },
+                {
+                    "id": 2,
+                    "problem": "https://upload.wikimedia.org/wikipedia/en/d/d2/Sublime_Text_3_logo.png",
+                    "solution": "Sublime Text"
+                },
+                {
+                    "id": 3,
+                    "problem": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/PhpStorm_Icon.svg/2048px-PhpStorm_Icon.svg.png",
+                    "solution": "PhpStorm"
+                }
+            ]
+        },
+        {
+            "level": [
+                {
+                    "id": 1,
+                    "problem": "https://design.firefox.com/product-identity/firefox/firefox/firefox-logo.png",
+                    "solution": "Mozilla"
+                },
+                {
+                    "id": 2,
+                    "problem": "https://upload.wikimedia.org/wikipedia/commons/8/87/Google_Chrome_icon_%282011%29.png",
+                    "solution": "Chrome"
+                },
+                {
+                    "id": 3,
+                    "problem": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Opera_O.png/480px-Opera_O.png",
+                    "solution": "Opera"
+                }
+            ]
+        },
+        {
+            "level": [
+                {
+                    "id": 1,
+                    "problem": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Windows_logo_-_2012.png",
+                    "solution": "Windows"
+                },
+                {
+                    "id": 2,
+                    "problem": "https://www.freepnglogos.com/uploads/linux-png/linux-tux-logo-png-transparent-svg-vector-bie-supply-14.png",
+                    "solution": "Linux"
+                },
+                {
+                    "id": 3,
+                    "problem": "https://cdn-icons-png.flaticon.com/512/2/2235.png",
+                    "solution": "MacOS"
+                }
+            ]
+        }
+    ]
 }
