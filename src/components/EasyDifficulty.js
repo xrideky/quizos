@@ -26,6 +26,7 @@ const EasyDifficulty = (easyLevels) => {
         console.log("PRED setLevel" + level)
         setLevel(level + 1)
         console.log("PO setLevel" + level)
+        console.log("git skuska")
     }
 
     /* 
