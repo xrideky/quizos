@@ -28,3 +28,10 @@ img {
     margin: 30px 30px;
     background-color: rgb(214, 214, 214);
 }
+
+h4 {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

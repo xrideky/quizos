@@ -2,6 +2,8 @@ import './EasyDifficulty.css'
 import { useState } from 'react'
 import Level from './Level'
 
+
+
 const EasyDifficulty = (easyLevels) => {
 
     const [show, setShow] = useState(false)
@@ -54,16 +56,16 @@ const EasyDifficulty = (easyLevels) => {
         */
         <div>
             <button onClick={easyHandler}>{show === true ? 'Ukončiť' : 'Ľahká obtiažnosť'}</button>
-            {show && <div className='easy-div'>
-                <Level levelProblems={levelProblems} levelSolutions={levelSolutions} />
-                <div className='next-level'>
-                    <button onClick={nextLevel} id="nextLevelBtn" >Ďalší level</button>
-                </div>
-                {modalShow && <div className='end-div'>
-                    <h3>KONIEC HRY</h3>
-                </div>
-                }
-            </div>}
+                {show && <div className='easy-div'>
+                    <Level levelProblems={levelProblems} levelSolutions={levelSolutions} />
+                    <div className='next-level'>
+                        <button onClick={nextLevel} id="nextLevelBtn" >Ďalší level</button>
+                    </div>
+                    {modalShow && <div className='end-div'>
+                        <h3>KONIEC HRY</h3>
+                    </div>
+                    }
+                </div>}
         </div>
     )
 }

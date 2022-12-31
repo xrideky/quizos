@@ -1,9 +1,71 @@
 .hard-div {
     border: 2px solid #6a1bd2;
     display: flex;
-    margin: 30px auto;
-    z-index: -8;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px auto;
+    z-index: 3;
     width: 60%;
-    height: 500px;
-    background-color: rgb(251, 248, 245);
+    height: 50%;
+    background-color: rgb(226, 224, 222);
+    text-align: center;
+    position: relative;
+}
+
+.end-div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    z-index: 99;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(226, 224, 222);
+    text-align: center;
+    position: absolute;
+}
+
+.end-div h3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 999;
+    font-size: 3rem;
+    color: #6a1bd2;
+}
+
+.box {
+    z-index: 10;
+}
+
+img {
+    margin-top: 100px;
+    width: 100px;
+    height: 100px;
+    z-index: 50;
+}
+
+.answer-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    border: 4px dashed #6a1bd2;
+    padding: 50px 50px;
+    margin: 30px 30px;
+    background-color: rgb(214, 214, 214);
+}
+
+.next-level {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
 }
